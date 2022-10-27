@@ -10,7 +10,7 @@ namespace StockTests
 		}
 
 		
-		[TestCase("2022/10/27 13:0:0", true)]
+		[TestCase("2022/10/27 12:0:0", true)]
 		public void Test1_正確時間(string input,bool istrue)
 		{
 			//取得使用者輸入字串

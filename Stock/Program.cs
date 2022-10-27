@@ -45,7 +45,7 @@ namespace Stock
 			}
 
 			//結果
-			//Console.WriteLine("在營業時間內");
+			Console.WriteLine("在營業時間內");
 
 
 		}

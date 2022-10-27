@@ -25,7 +25,7 @@ namespace Ispan.TainwanStockUtilities
 			int time = hours + minutes;
 			if (week>=1&&week<=5)
 			{
-				if (time>=900&&time>=1330)
+				if (time>=900&&time<=1330)
 				{
 					return true;
 				}
